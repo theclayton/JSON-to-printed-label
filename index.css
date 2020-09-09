@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 45pt;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+span {
+    padding: 30px 45px;
+}
+
+.page {
+    background: white;
+    width: 215.9mm;
+    height: 285.4mm;
+    border: solid 1px #dddddd;
+}
+
+.quarter {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+}
+
+.small {
+    font-size: 8pt;
+}

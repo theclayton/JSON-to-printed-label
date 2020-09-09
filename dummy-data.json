@@ -1,0 +1,63 @@
+{
+    "data": [{
+            "unit": "Unit 101",
+            "ssid": "Unit 101 5g",
+            "password": "OrangePanda1234"
+        },
+        {
+            "unit": "Unit 202",
+            "ssid": "Unit 202 5g",
+            "password": "GreenPanda1234"
+        },
+        {
+            "unit": "Unit 302",
+            "ssid": "Unit 302 5g",
+            "password": "PurplePanda1234"
+        },
+        {
+            "unit": "Unit 401",
+            "ssid": "Unit 401 5g",
+            "password": "OrangePanda1234"
+        },
+        {
+            "unit": "Unit 502",
+            "ssid": "Unit 502 5g",
+            "password": "GreenPanda1234"
+        },
+        {
+            "unit": "Unit 602",
+            "ssid": "Unit 602 5g",
+            "password": "PurplePanda1234"
+        },
+        {
+            "unit": "Unit 701",
+            "ssid": "Unit 701 5g",
+            "password": "OrangePanda1234"
+        },
+        {
+            "unit": "Unit 802",
+            "ssid": "Unit 802 5g",
+            "password": "GreenPanda1234"
+        },
+        {
+            "unit": "Unit 902",
+            "ssid": "Unit 902 5g",
+            "password": "PurplePanda1234"
+        },
+        {
+            "unit": "Unit 1001",
+            "ssid": "Unit 1001 5g",
+            "password": "OrangePanda1234"
+        },
+        {
+            "unit": "Unit 1102",
+            "ssid": "Unit 202 5g",
+            "password": "GreenPanda1234"
+        },
+        {
+            "unit": "Unit 11011",
+            "ssid": "Unit 202 5g",
+            "password": "PurplePanda1234"
+        }
+    ]
+}
