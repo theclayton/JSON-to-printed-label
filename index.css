@@ -19,14 +19,20 @@ p {
     margin: 0px;
 }
 
-span {
-    padding: 30px 45px;
+.unit {
+    max-width: 20%;
+    margin: 45px 0px 0px 25px;
+}
+
+.wifi {
+    min-width: 35%;
+    margin-top: 45px;
 }
 
 .page {
     background: white;
     width: 215.9mm;
-    height: 285.4mm;
+    height: 288.4mm;
     border: solid 1px #dddddd;
 }
 

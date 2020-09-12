@@ -34,13 +34,15 @@ function generateHTML() {
             labelPagesHTML += `<div class="page">`
         }
         labelPagesHTML += `<div class="quarter">`
-        labelPagesHTML += `<span><h1>${data.data[unit].unit}</h1></span>`
+        labelPagesHTML += `<span class="unit"><h1>${data.data[unit].unit}</h1></span>`
 
         let quarterHTML = ""
-        quarterHTML += `<span><div class="center"><h3>Wifi</h3>`
+        quarterHTML += `<span class="wifi"><div class="center"><h3>Wifi</h3>`
         quarterHTML += `<p>Network name:<br><strong>${data.data[unit].ssid}</strong><br>`
         quarterHTML += `Password:<br><strong>${data.data[unit].password}</strong></p>`
-        quarterHTML += `<p class="small">Your password has been randomly generated to ensure the security of your network.</p></div><div class="center"><p class="small"><strong>WARNING</strong><br>Do not press RESET</p></div></span>`
+        quarterHTML += `<p class="small center">Need assistance?<br>Call 484-464-0521<br>Your code is:<br><strong>${data.data[unit].code}</strong></p>`
+            //quarterHTML += `<p class="small">Your password has been randomly generated to ensure the security of your network.</p>`
+        quarterHTML += `</div><div class="center"><p class="small"><strong>WARNING</strong><br>Do not press RESET</p></div></span>`
 
         // Repeat to make 2 labels with wifi info
         labelPagesHTML += quarterHTML
